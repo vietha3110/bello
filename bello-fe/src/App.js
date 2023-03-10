@@ -1,6 +1,9 @@
 import './App.css';
 import { useState } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import {  
+  Route,
+  Routes
+} from "react-router-dom";
 import Navigation from './component/Navigation';
 import SplashPage from './component/SplashPage';
 import Login from './component/Login';
@@ -15,17 +18,12 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
-        <Switch>
-          <Route exact path='/'>
-            <Navigation/>
-            <SplashPage />            
-          </Route>
-          <Route path='/login'>
-            <Login/>
-          </Route>
-        </Switch>
-      </BrowserRouter>
+      <Routes>
+        <Route exact path='/' element={<><Navigation/> <SplashPage/></>}>   
+        </Route>
+        <Route path='/login' element={<Login/>}></Route>
+      </Routes>
+        
     </div>
   );
 }

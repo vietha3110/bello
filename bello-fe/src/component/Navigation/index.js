@@ -26,7 +26,7 @@ const Navigation = () => {
             </div>
             <div className="navbarRight">
                 <div className='login'>
-                    <Link to='/login'>Login</Link>
+                    <Link to='login'>Login</Link>
                 </div>
                 <div className='signup'> 
                     <span>Get Bello for free</span>

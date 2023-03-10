@@ -14,7 +14,7 @@ const SplashPage = () => {
                     </p>
                     <div>
                         <button>Sign up - it's free</button>
-                        <Link> Watch video</Link>
+                        {/* <Link> Watch video</Link> */}
                     </div>
                 </div>
                 <div className={styles.columnRight}>
