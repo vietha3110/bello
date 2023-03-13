@@ -1,21 +1,20 @@
-.login-container {
+.signup-container {
     display: flex;
     justify-content: center;
     margin: 0;
     flex-direction: column;
     align-items: center;
 }
-.login-page {
+.signup-page {
     display: flex;
     margin: 0;
     flex-direction: column;
     align-items: center;
     width: 500px;
     height: 100vh;
-    border: 1px solid #cccccc;
 }
 
-.login-main {
+.signup-main {
     width: 500px;
     box-shadow: rgb(0 0 0 / 10%) 0 0 10px;
     display: flex;
@@ -23,7 +22,7 @@
     border-radius: 5px;
 }
 
-.login-logo {
+.signup-logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,18 +30,20 @@
     width: 100%;
 }
 
-.login-title {
+.signup-title {
     text-align: center;
     margin: 1rem;
+    font-weight: 700;
+    font-size: 1.3rem;
 }
 
-.login-form, .login-mockup {
+.signup-form, .signup-mockup {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.login-content {
+.signup-content {
     width: 300px;
     border: 1px solid #cccccc;
     height: 40px;
@@ -54,14 +55,15 @@
 
 }
 
-.login-content > input {
+.signup-content > input {
     padding: 10px;
     display: flex;
     align-items: center;
+    width: 400px;
     
 }
 
-.login-ctn {
+.signup-ctn {
     background-color: #5AAC44;
     color: #fff;
     display: flex;
@@ -72,7 +74,7 @@
     cursor: pointer;
 }
 
-.login-mockup-content {
+.signup-mockup-content {
     font-weight: 600;
     display: flex;
     justify-content: center;
@@ -85,7 +87,7 @@
     display: block;
 }
 
-.login-mockup-label {
+.signup-mockup-label {
     display: inline-block;
     vertical-align: middle;
     font-size: 14px;
@@ -130,7 +132,7 @@
     vertical-align: middle;
 }
 
-.login-bottom {
+.signup-bottom {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,7 +141,7 @@
     
 }
 
-.login-bottom-wrapper {
+.signup-bottom-wrapper {
     width: 300px;
     font-size: 12px;
     display: flex;

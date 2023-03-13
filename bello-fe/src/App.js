@@ -7,6 +7,7 @@ import {
 import Navigation from './component/Navigation';
 import SplashPage from './component/SplashPage';
 import Login from './component/Login';
+import SignUp from './component/Signup';
 
 
 
@@ -21,7 +22,8 @@ function App() {
       <Routes>
         <Route exact path='/' element={<><Navigation/> <SplashPage/></>}>   
         </Route>
-        <Route path='/login' element={<Login/>}></Route>
+        <Route path='/login' element={<Login />}></Route>
+        <Route path='/signup' element={<SignUp/>}></Route>
       </Routes>
         
     </div>
