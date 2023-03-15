@@ -8,6 +8,7 @@ import Navigation from './component/Navigation';
 import SplashPage from './component/SplashPage';
 import Login from './component/Login';
 import SignUp from './component/Signup';
+import MainPage from './component/MainPage';
 
 
 
@@ -23,7 +24,8 @@ function App() {
         <Route exact path='/' element={<><Navigation/> <SplashPage/></>}>   
         </Route>
         <Route path='/login' element={<Login />}></Route>
-        <Route path='/signup' element={<SignUp/>}></Route>
+        <Route path='/signup' element={<SignUp />}></Route>
+        <Route path='/main' element={<MainPage/>}></Route>
       </Routes>
         
     </div>

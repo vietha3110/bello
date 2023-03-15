@@ -1,0 +1,37 @@
+.mainpage-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.boards-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.workspace-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.workspace-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.board-creation {
+    height: 80px;
+    width: 10rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #091e420a;
+    color: #172b4d;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.board-creation:hover {
+     background-color: #091e4214;
+}
