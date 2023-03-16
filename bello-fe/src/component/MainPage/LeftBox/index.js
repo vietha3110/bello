@@ -13,15 +13,15 @@ const LeftBox = () => {
         <div className="leftsidebar-container">
             <div className='leftsidebar-label'>
                 <div className='leftsidebar-title'>
-                    <span class="material-symbols-outlined">dashboard</span>
+                    <span className="material-symbols-outlined">dashboard</span>
                     <span>Boards</span>
                 </div>
                 <div  className='leftsidebar-title'>
-                    <span class="material-symbols-outlined">grid_view</span>
+                    <span className="material-symbols-outlined">grid_view</span>
                     <span>Templates</span>
                 </div>
                 <div  className='leftsidebar-title'>
-                    <span class="material-symbols-outlined">show_chart</span>
+                    <span className="material-symbols-outlined">show_chart</span>
                     <span>Home</span>
                 </div>
             </div>
@@ -33,7 +33,7 @@ const LeftBox = () => {
                 {
                     showBtn && 
                     workspaceButtons.map(el => 
-                        <div>
+                        <div key={el}>
                             <span>{el}</span>
                         </div>)
                 }

@@ -1,0 +1,114 @@
+.boards-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.board-creation-form {
+    width: 304px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow:  0 8px 16px -4px rgba(9, 30, 66, 0.25), 0 0 0 1px rgba(9, 30, 66, 0.08);
+    border-radius: 3px;
+}
+
+.board-creation-form-title {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    border-bottom: 1px solid rgba(9, 30, 66, 0.13);
+    height: 30px;
+    padding: 2px;
+}
+
+.board-creation-form-info, .board-creation-form-background, .board-creation-form-notice {
+    font-size: 12px;
+    font-weight: 600;
+    color: #172b4d;
+
+}
+
+.board-creation-form-notice {
+    margin: 10px;
+}
+.board-creation-form-background {
+    height: 60px;
+    margin: 10px;
+}
+
+.board-creation-form-info {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.board-creation-form-info > label {
+    color: #172b4d;
+    margin-bottom: 5px;
+}
+.board-creation-form-info > span {
+    margin-top: 5px;
+    color: #172b4d;
+
+}
+.board-creation-form-info > input {
+    width: 91%;
+    border: 1px solid #cccccc;
+    height: 20px;
+    text-align: left;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.board-creation-form-info > input:focus {
+    border: 2px solid #ed5249;
+}
+
+.board-creation-form-option {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.board-creation-form-option > label {
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #172b4d;
+    font-weight: 600;
+}
+
+.board-creation-form-option > select {
+    border: 1px solid #cccccc;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.board-creation-form-submitbtn, .board-creation-form-template {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.board-creation-form-submitbtn > button {
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #0079bf;
+    color: #fff;
+    border: 1px solid #0079bf;
+    cursor: pointer;
+}
+
+.board-creation-form-submitbtn > button:disabled {
+    background-color: rgba(9, 30, 66, 0.04);
+    border: 1px solid rgba(9, 30, 66, 0.04);
+    cursor: default;
+    color: #a5adba;
+}
+.board-creation-form-template > button {
+    background-color: rgba(9, 30, 66, 0.04);
+    border: 1px solid rgba(9, 30, 66, 0.04);
+    cursor: default;
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    color: #a5adba;
+}
