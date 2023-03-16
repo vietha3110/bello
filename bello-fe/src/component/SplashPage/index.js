@@ -13,7 +13,7 @@ const SplashPage = () => {
                         Keep everything in the same place-even if your team isn't.
                     </p>
                     <div>
-                        <button>Sign up - it's free</button>
+                        <Link to='/signup'>Sign up - it's free</Link>
                         {/* <Link> Watch video</Link> */}
                     </div>
                 </div>
